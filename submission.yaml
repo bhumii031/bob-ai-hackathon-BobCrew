@@ -1,0 +1,101 @@
+﻿# IBM Bob AI Hackathon - Submission Metadata
+# Team: BobCrew
+
+project:
+  title: "Sentinel — Drug Safety & Regulatory Intelligence Platform"
+  tagline: "Automated pharmacovigilance signal detection and ICH M4 CTD submission gap analysis — zero backend, fully client-side."
+  track: "AI / Healthcare & Life Sciences"
+  version: "1.0.0"
+
+team:
+  name: "BobCrew"
+  repository: "https://github.com/bhumii031/bob-ai-hackathon-BobCrew"
+
+problem_statement: >
+  Pharmacovigilance teams must manually sift through thousands of spontaneous adverse
+  event reports to detect drug safety signals — a slow, error-prone process requiring
+  specialist statistical expertise. Regulatory dossier managers preparing NDA/MAA
+  submissions also struggle to cross-check documents against the ICH M4 CTD structure
+  by hand, frequently missing critical gaps that lead to costly regulatory rejections.
+
+solution: >
+  Sentinel is a fully client-side React web application that automates both challenges
+  in one unified dashboard. It runs validated disproportionality algorithms (PRR, ROR,
+  Chi-square with Yates correction, 95% CI) directly in the browser to surface drug-event
+  safety signals in seconds. It also performs Levenshtein fuzzy-match gap analysis of a
+  dossier TOC against the complete ICH M4 CTD reference structure, scoring readiness
+  per module and flagging Critical/High/Medium severity gaps before submission.
+
+key_features:
+  - "Automated Signal Detection: PRR, ROR, Chi-square (Yates), 95% CI — ranks signals Critical / Signal / Watch / No Signal"
+  - "CSV Upload & Validation: accepts up to 50,000 AE rows with column validation and clear error messages"
+  - "ICH M4 CTD Gap Analysis: Levenshtein fuzzy matching against 60-item CTD reference with per-module readiness scores"
+  - "Interactive Visualisations: scatter plots, trend charts, bar charts, animated SVG readiness gauge (Recharts)"
+  - "Dark Mode + Responsive UI: full dark/light toggle, custom Tailwind sidebar navigation"
+  - "Zero Backend / Privacy-First: all computation runs in-browser, no data leaves the user machine"
+
+tech_stack:
+  languages:
+    - "JavaScript (ES2022)"
+    - "JSX"
+    - "CSS3"
+  frameworks:
+    - "React 18"
+    - "Vite 5"
+    - "Tailwind CSS 3"
+  ibm_technologies:
+    - "IBM Bob (AI Agent)"
+    - "IBM Bob Agent Mode"
+    - "IBM Bob Skill System"
+  databases:
+    - "In-memory browser state"
+    - "CSV flat-file input"
+  other:
+    - "Recharts 3"
+    - "PapaParse 5"
+    - "Lucide React"
+    - "PostCSS"
+    - "Autoprefixer"
+
+repository_structure:
+  src: "All React source code — components, utils, data"
+  docs: "Written documentation including setup-guide.md"
+  demo: "Screenshots, demo video link, live demo URL"
+  presentation: "Slide deck (slides.pdf)"
+
+how_to_run:
+  prerequisites:
+    - "Node.js 18+"
+    - "npm 9+"
+  steps:
+    - "git clone https://github.com/bhumii031/bob-ai-hackathon-BobCrew.git"
+    - "cd bob-ai-hackathon-BobCrew"
+    - "npm install"
+    - "npm run dev   # opens at http://localhost:5173"
+  notes: "No .env required. App is fully client-side with built-in sample data."
+
+demo:
+  demo_video: "demo/demo-video-link.txt"
+  live_demo: "demo/live-demo-url.txt"
+  screenshots: "demo/screenshots/"
+  presentation: "presentation/slides.pdf"
+
+known_limitations:
+  - "No user authentication — single-user browser tool, not production-hardened"
+  - "CSV files capped at 50,000 rows to maintain browser responsiveness"
+  - "JS bundle ~644 KB (uncompressed) — code-splitting not applied in this version"
+  - "CTD gap detection uses Levenshtein fuzzy matching, not NLP"
+  - "No persistent storage — data resets on page refresh"
+
+most_proud_of: >
+  End-to-end pharmacovigilance math (PRR, ROR, Chi-square, 95% CI) implemented in pure
+  JavaScript with no external stats library, combined with a zero-backend privacy-first
+  architecture and a production-quality UI — all built entirely using IBM Bob Agent Mode
+  in a hackathon timeframe.
+
+ibm_bob_usage: >
+  Every component, algorithm, utility function, and CSS class in this project was written
+  by IBM Bob in Agent Mode. The project demonstrates IBM Bob's capability to produce
+  domain-expert-level code for specialised life sciences and regulatory applications,
+  including statistically correct pharmacovigilance algorithms and ICH regulatory
+  compliance logic.

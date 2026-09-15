@@ -1,0 +1,71 @@
+drug_name,adverse_event,patient_age,patient_sex,report_date,outcome,reporter_type
+Aspirin,Headache,45,M,2023-01-15,non-serious,Physician
+Aspirin,Headache,38,F,2023-02-10,non-serious,Patient
+Aspirin,Headache,55,M,2023-03-05,non-serious,Pharmacist
+Aspirin,Nausea,42,F,2023-01-20,non-serious,Physician
+Aspirin,Nausea,60,M,2023-02-28,non-serious,Nurse
+Aspirin,Liver Damage,52,F,2023-03-15,serious,Physician
+Aspirin,Liver Damage,47,M,2023-04-10,serious,Physician
+Aspirin,Liver Damage,63,F,2023-05-02,serious,Pharmacist
+Aspirin,Dizziness,35,M,2023-01-25,non-serious,Patient
+Aspirin,Dizziness,49,F,2023-02-14,non-serious,Physician
+Aspirin,Stomach Bleeding,58,M,2023-03-20,serious,Physician
+Aspirin,Stomach Bleeding,44,F,2023-04-18,serious,Nurse
+Aspirin,Fatigue,39,M,2023-02-05,non-serious,Patient
+Ibuprofen,Nausea,33,F,2023-03-10,non-serious,Patient
+Ibuprofen,Nausea,45,M,2023-04-05,non-serious,Physician
+Ibuprofen,Nausea,28,F,2023-05-12,non-serious,Pharmacist
+Ibuprofen,Headache,41,M,2023-01-30,non-serious,Patient
+Ibuprofen,Headache,55,F,2023-02-22,non-serious,Physician
+Ibuprofen,Liver Damage,61,M,2023-04-05,death,Physician
+Ibuprofen,Liver Damage,54,F,2023-05-15,death,Physician
+Ibuprofen,Liver Damage,67,M,2023-06-10,death,Pharmacist
+Ibuprofen,Liver Damage,49,F,2023-07-08,serious,Physician
+Ibuprofen,Liver Damage,72,M,2023-08-14,serious,Nurse
+Ibuprofen,Dizziness,36,F,2023-03-25,non-serious,Patient
+Ibuprofen,Fatigue,50,M,2023-04-30,non-serious,Physician
+Ibuprofen,Kidney Damage,58,F,2023-05-20,serious,Physician
+Ibuprofen,Kidney Damage,63,M,2023-06-18,serious,Physician
+Ibuprofen,Stomach Bleeding,44,F,2023-02-15,non-serious,Patient
+Paracetamol,Headache,29,F,2023-01-10,non-serious,Patient
+Paracetamol,Headache,43,M,2023-02-08,non-serious,Physician
+Paracetamol,Nausea,37,F,2023-03-14,non-serious,Pharmacist
+Paracetamol,Nausea,51,M,2023-04-22,non-serious,Patient
+Paracetamol,Liver Damage,46,F,2023-02-25,serious,Physician
+Paracetamol,Liver Damage,59,M,2023-03-30,serious,Physician
+Paracetamol,Fatigue,34,F,2023-01-18,non-serious,Nurse
+Paracetamol,Dizziness,48,M,2023-02-12,non-serious,Patient
+Paracetamol,Kidney Damage,55,F,2023-04-08,non-serious,Physician
+Paracetamol,Rash,40,M,2023-05-05,non-serious,Patient
+Metformin,Nausea,62,F,2023-01-05,non-serious,Physician
+Metformin,Nausea,55,M,2023-02-18,non-serious,Pharmacist
+Metformin,Nausea,48,F,2023-03-22,non-serious,Patient
+Metformin,Nausea,70,M,2023-04-15,non-serious,Physician
+Metformin,Diarrhea,58,F,2023-01-28,non-serious,Physician
+Metformin,Diarrhea,63,M,2023-02-20,non-serious,Nurse
+Metformin,Diarrhea,49,F,2023-03-08,non-serious,Patient
+Metformin,Headache,67,M,2023-04-25,non-serious,Physician
+Metformin,Fatigue,54,F,2023-05-10,non-serious,Pharmacist
+Metformin,Kidney Damage,71,M,2023-02-05,serious,Physician
+Metformin,Kidney Damage,65,F,2023-03-18,serious,Physician
+Metformin,Kidney Damage,59,M,2023-04-30,serious,Nurse
+Metformin,Lactic Acidosis,68,F,2023-01-15,death,Physician
+Metformin,Lactic Acidosis,73,M,2023-02-28,death,Physician
+Metformin,Lactic Acidosis,61,F,2023-04-12,death,Physician
+Metformin,Lactic Acidosis,77,M,2023-05-25,serious,Physician
+Metformin,Lactic Acidosis,64,F,2023-06-08,serious,Pharmacist
+Atorvastatin,Myalgia,56,M,2023-01-08,non-serious,Physician
+Atorvastatin,Myalgia,49,F,2023-02-15,non-serious,Patient
+Atorvastatin,Myalgia,63,M,2023-03-28,serious,Physician
+Atorvastatin,Headache,44,F,2023-01-22,non-serious,Pharmacist
+Atorvastatin,Headache,58,M,2023-02-10,non-serious,Patient
+Atorvastatin,Nausea,37,F,2023-03-05,non-serious,Physician
+Atorvastatin,Fatigue,52,M,2023-04-18,non-serious,Nurse
+Atorvastatin,Liver Damage,61,F,2023-02-28,serious,Physician
+Atorvastatin,Liver Damage,55,M,2023-03-15,non-serious,Physician
+Atorvastatin,Rhabdomyolysis,67,F,2023-01-30,death,Physician
+Atorvastatin,Rhabdomyolysis,71,M,2023-03-10,death,Physician
+Atorvastatin,Rhabdomyolysis,59,F,2023-04-22,death,Physician
+Atorvastatin,Rhabdomyolysis,64,M,2023-05-15,serious,Physician
+Atorvastatin,Rhabdomyolysis,48,F,2023-06-20,serious,Pharmacist
+Atorvastatin,Dizziness,43,M,2023-02-08,non-serious,Patient

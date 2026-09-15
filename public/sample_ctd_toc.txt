@@ -1,0 +1,52 @@
+Cover Letter
+Comprehensive Table of Contents
+Application Form
+SPC / Label / Package Leaflet
+Mock-up and Specimen of Proposed Labeling
+Information About the Experts
+Specific Requirements for Different Types of Applications
+
+CTD Table of Contents (Modules 2-5)
+Introduction to the Dossier
+Quality Overall Summary
+Nonclinical Overview
+Clinical Overview
+Nonclinical Written and Tabulated Summaries
+Summary of Biopharmaceutic Studies
+Summary of Clinical Pharmacology Studies
+Summary of Clinical Efficacy
+Summary of Clinical Safety
+
+Table of Contents Module 3
+Drug Substance – General Information
+Drug Substance – Manufacture
+Drug Substance – Characterisation
+Drug Substance – Control of Drug Substance
+Drug Substance – Reference Standards
+Drug Substance – Container Closure System
+Drug Product – Description and Composition
+Drug Product – Pharmaceutical Development
+Drug Product – Manufacture
+Drug Product – Control of Excipients
+Drug Product – Control of Drug Product
+Drug Product – Container Closure System
+
+Table of Contents Module 4
+Pharmacology – Primary Pharmacodynamics
+Pharmacology – Secondary Pharmacodynamics
+Pharmacology – Safety Pharmacology
+Pharmacokinetics Studies
+Toxicology – Single-Dose
+Toxicology – Repeat-Dose
+Toxicology – Genotoxicity
+Toxicology – Reproductive and Developmental
+Literature References (Nonclinical)
+
+Table of Contents Module 5
+Tabular Listing of All Clinical Studies
+Biopharmaceutic Study Reports
+Clinical Pharmacology Study Reports
+Phase I Study Reports
+Phase II Study Reports
+Reports of Post-Marketing Experience
+Literature References (Clinical)
