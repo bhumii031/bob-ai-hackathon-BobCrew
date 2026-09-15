@@ -1,1 +1,1 @@
-https://bob-ai-hackathon-bob-crew.vercel.app
+https://bob-ai-hackathon-bob-crew.vercel.app/
