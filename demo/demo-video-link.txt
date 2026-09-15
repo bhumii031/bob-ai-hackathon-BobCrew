@@ -1,0 +1,8 @@
+Demo Video — Coming Soon
+
+Live App (use this instead):
+https://bob-ai-hackathon-bob-crew.vercel.app
+
+The live app is fully functional and can be explored directly.
+All features including Signal Detection and CTD Gap Analysis
+are available with pre-loaded sample data — no setup required.
